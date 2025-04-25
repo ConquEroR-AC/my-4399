@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>4399 游戏首页</title>
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      margin: 0;
+      background: #fff;
+    }
+    header {
+      background: #f8f8f8;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: orange;
+    }
+    .search-bar {
+      flex-grow: 1;
+      margin: 0 20px;
+    }
+    .search-bar input {
+      width: 100%;
+      padding: 6px 10px;
+      font-size: 14px;
+    }
+    nav {
+      background: #7cc133;
+      color: white;
+      padding: 10px 20px;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      gap: 20px;
+    }
+    nav li {
+      cursor: pointer;
+    }
+    .tags {
+      padding: 10px 20px;
+      font-size: 14px;
+      color: #333;
+    }
+    .tags span {
+      margin-right: 10px;
+      color: #f60;
+      cursor: pointer;
+    }
+    .section-title {
+      color: #6c3;
+      font-weight: bold;
+      padding: 10px 20px 0;
+      font-size: 18px;
+    }
+    .games-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+      gap: 10px;
+      padding: 10px 20px;
+    }
+    .games-grid img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    }
+    .game-label {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">4399</div>
+    <div class="search-bar">
+      <input type="text" placeholder="搜索游戏、标签…" />
+    </div>
+    <button>下载APP</button>
+  </header>
+
+  <nav>
+    <ul>
+      <li>首页</li>
+      <li>动作</li>
+      <li>体育</li>
+      <li>益智</li>
+      <li>射击</li>
+      <li>战争</li>
+      <li>双人</li>
+      <li>策略</li>
+      <li>手机游戏</li>
+    </ul>
+  </nav>
+
+  <div class="tags">
+    <span>热血</span>
+    <span>冒险</span>
+    <span>三国</span>
+    <span>火柴人</span>
+    <span>塔防</span>
+    <span>女生</span>
+    <span>换装</span>
+  </div>
+
+  <div class="section-title">🔥 新游好热</div>
+  <div class="games-grid">
+    <div>
+      <img src="https://img.4399.cn/tu/gameicon/2023/08/03/1691050337.jpg" alt="小小冒险" />
+      <div class="game-label">小小冒险</div>
+    </div>
+    <div>
+      <img src="https://img.4399.cn/tu/gameicon/2023/09/01/1693547290.jpg" alt="多切成汤" />
+      <div class="game-label">多切成汤</div>
+    </div>
+    <div>
+      <img src="https://img.4399.cn/tu/gameicon/2023/11/20/1700461510.jpg" alt="原神" />
+      <div class="game-label">原神</div>
+    </div>
+    <!-- 更多游戏项 -->
+  </div>
+
+</body>
+</html>
